@@ -21,17 +21,20 @@ header {
   header h1 {
     font-family: "Cormorant Garamond", serif; }
 
-nav {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch; }
-  nav ul {
-    list-style: none; }
-    nav ul li a {
-      text-decoration: none; }
+a {
+  margin: 2%;
+  width: 29.33333333%;
+  padding: 2%;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  padding: 0%; }
+
+a:visited {
+  color: black; }
 
 p {
   font-family: "Montserrat", sans-serif;

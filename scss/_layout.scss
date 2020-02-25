@@ -27,22 +27,26 @@
      }//h1
  }
 
- nav{
-     width: 100%;
-     display: flex;
-     flex-wrap:wrap; 
-     flex-direction:row; 
-     justify-content:center; 
-     align-items:stretch;
-     ul{
-        list-style: none;
-        li{
-            a{
-                text-decoration: none;
-            }//a
-        }//li
-     }//ul
- }
+    a{
+        margin:2%;
+        width:29.33333333%;
+        padding:2%;
+        box-sizing:border-box;
+
+        text-align: center;
+        text-decoration: none;
+        color: $body-text-color;
+        img{
+
+        }
+    }
+    a:hover{
+        padding: 0%;
+    }
+    a:visited{
+        color: $body-text-color;
+    }
+
 
  p {
      font-family: $body-font;
