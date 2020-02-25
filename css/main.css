@@ -4,8 +4,7 @@ body {
 
 #container {
   background-color: #ebc8ff;
-  width: 100%;
-  max-width: 1400px;
+  height: auto;
   margin: 0px auto;
   padding: 0px;
   box-sizing: border-box;
@@ -14,6 +13,21 @@ body {
   flex-direction: row;
   align-content: flex-start;
   align-items: stretch; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #container {
+    max-width: 600px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #container {
+    max-width: 1000px; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #container {
+    max-width: 1300px; } }
 
 header {
   width: 100%;
@@ -29,6 +43,10 @@ a {
   text-align: center;
   text-decoration: none;
   color: black; }
+  a img {
+    object-fit: contain;
+    width: 100%;
+    height: auto; }
 
 a:hover {
   padding: 0%; }
