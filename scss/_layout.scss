@@ -44,6 +44,8 @@
      text-align: center;
      h1{
          font-family: $display-font;
+         font-size: 4.5em;
+         color: $accent-color;
      }//h1
  }
 
@@ -56,6 +58,7 @@
         text-align: center;
         text-decoration: none;
         color: $body-text-color;
+        font-family: $body-font;
         img{
             object-fit: contain;
             width: 100%;

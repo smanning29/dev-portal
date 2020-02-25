@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap");
 body {
   background-color: white; }
 
 #container {
-  background-color: #ebc8ff;
+  background-color: white;
   height: auto;
   margin: 0px auto;
   padding: 0px;
@@ -33,7 +33,9 @@ header {
   width: 100%;
   text-align: center; }
   header h1 {
-    font-family: "Cormorant Garamond", serif; }
+    font-family: "Satisfy", cursive;
+    font-size: 4.5em;
+    color: #260F49; }
 
 a {
   margin: 2%;
@@ -42,7 +44,8 @@ a {
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-family: "Montserrat", sans-serif; }
   a img {
     object-fit: contain;
     width: 100%;
