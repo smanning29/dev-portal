@@ -18,10 +18,32 @@
 	align-items:stretch;
  }
 
+ @media only screen and (max-width: 375px) {
+    #container{
+        max-width: 375px;
+    }
+    a{
+        width:98%;
+    }
+    header{
+        h1{
+            font-size: 2em;
+        }
+    }
+}
+
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #container{
         max-width: 600px;
+    }
+    a{
+        width:46%;
+    }
+    header{
+        h1{
+            font-size: 2.5em;
+        }
     }
 }
 
@@ -30,6 +52,11 @@
     #container{
         max-width: 1000px;
     }
+    header{
+        h1{
+            font-size: 3em;
+        }
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -37,6 +64,15 @@
     #container{
         max-width: 1300px;
     }
+    a{
+        width:21%;
+    }
+    header{
+        h1{
+            font-size: 4.5em;
+        }
+    }
+    
 }
 
  header{
@@ -44,14 +80,12 @@
      text-align: center;
      h1{
          font-family: $display-font;
-         font-size: 4.5em;
          color: $accent-color;
      }//h1
  }
 
     a{
         margin:2%;
-        width:29.33333333%;
         padding:2%;
         box-sizing:border-box;
 
@@ -59,6 +93,7 @@
         text-decoration: none;
         color: $body-text-color;
         font-family: $body-font;
+        transition: ease;
         img{
             object-fit: contain;
             width: 100%;

@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Web VR</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+    <!-- Google Analytics: change UA-XXXXX-Y to site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</head>
+
+<body>
+  <div id="container">
+
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="plant-obj" src="plant.obj"></a-asset-item>
+        <a-asset-item id="plant-mtl" src="plant.mtl"></a-asset-item>
+      </a-assets>
+    
+      <a-entity position="0 0 0" obj-model="obj: #plant-obj; mtl: #plant-mtl"></a-entity>
+      <!-- <a-assets>
+        <a-asset-item id="cactus-obj" src="cactus.obj"></a-asset-item>
+        <a-asset-item id="cactus-mtl" src="cactus.mtl"></a-asset-item>
+      </a-assets>
+    
+      <a-entity position="0 0 -4" obj-model="obj: #cactus-obj; mtl: #cactus-mtl"></a-entity> -->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+  <!-- <a-scene>
+    <a-entity camera controls position="0 30 0"></a-entity>
+      <a-assets>
+        <a-asset-item id="plant-obj" src="planta.obj"></a-asset-item>
+        <a-asset-item id="plant-mtl" src="planta.mtl"></a-asset-item>
+      </a-assets>
+    
+      <a-entity obj-model="obj: #plant-obj; mtl: #plant-mtl" material="src: Symphoricarpos_750_DB.jpg"></a-entity>
+    <a-sky color="#ECECEC"></a-sky>
+  </a-scene> -->
+
+</div>
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

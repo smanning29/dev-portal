@@ -14,38 +14,55 @@ body {
   align-content: flex-start;
   align-items: stretch; }
 
+@media only screen and (max-width: 375px) {
+  #container {
+    max-width: 375px; }
+  a {
+    width: 98%; }
+  header h1 {
+    font-size: 2em; } }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #container {
-    max-width: 600px; } }
+    max-width: 600px; }
+  a {
+    width: 46%; }
+  header h1 {
+    font-size: 2.5em; } }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #container {
-    max-width: 1000px; } }
+    max-width: 1000px; }
+  header h1 {
+    font-size: 3em; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #container {
-    max-width: 1300px; } }
+    max-width: 1300px; }
+  a {
+    width: 21%; }
+  header h1 {
+    font-size: 4.5em; } }
 
 header {
   width: 100%;
   text-align: center; }
   header h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4.5em;
     color: #260F49; }
 
 a {
   margin: 2%;
-  width: 29.33333333%;
   padding: 2%;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
   color: black;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  transition: ease; }
   a img {
     object-fit: contain;
     width: 100%;

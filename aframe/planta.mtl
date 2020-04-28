@@ -1,0 +1,28 @@
+# Rhino
+newmtl Symphoricarpos
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Symphoricarpos_750_DB.jpg
+map_Bump Symphoricarpos_750_DB.jpg
+newmtl Terracotta
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Terracotta_200_DB50.jpg
+map_Bump Terracotta_200_DB50.jpg
+newmtl Brown mulch
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Brown mulch_150_DB.jpg
+map_Bump Brown mulch_150_DB.jpg
